@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/signtree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sign config/tree key checks for twelve-factor services.",
+  "bin": {
+    "signtree": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/signtree.git"
+  },
+  "homepage": "https://theworker02.github.io/signtree/",
+  "keywords": [
+    "sign",
+    "tree",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
